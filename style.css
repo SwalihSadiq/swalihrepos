@@ -1,0 +1,93 @@
+body{
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    margin: 0%;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 100;
+    font-style: normal;
+}
+.title{
+   font-family: serif;
+   padding: 25px;
+   font-weight: 100;
+   
+}
+.titlediv h1{
+    padding: 25px;
+    margin: auto;
+    letter-spacing: 8px;
+    font-weight: lighter;
+    font-size: 46px;
+    color: #b7b7b7;    
+}
+
+.tagline{
+   
+    width: 600px;
+    margin: auto;
+    letter-spacing: 8px;  
+}
+.tagline p{
+    margin-top: -15px;
+    margin-bottom: 8px;
+}
+
+.navigation{
+    
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+.navigation ul{
+   
+    display: inline-block;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    border-top: 0.1px solid rgb(69, 67, 67);
+  
+}
+.navigation a{
+    
+    color: #b7b7b7;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    transition: color 0.5s ease;
+}
+.social{
+    padding: 14%;
+    display: flex;
+    width: 2px;
+    justify-content: center;
+    gap: 120px;
+    margin-left: 500px;
+}
+.footer{
+    margin-bottom: 3%;
+    
+}
+.footer a{
+    font-family: sans-serif;
+    color: #FFFFFF
+}
+.footer p{
+    color: #999999;
+}
+.comments{
+    text-align: center;
+    font-family: sans-serif;
+  letter-spacing: 1px;
+    padding: 98px;
+ 
+ 
+}
+.comments h3{
+    
+    color: #bebbbb;
+}
